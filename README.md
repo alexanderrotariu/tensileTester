@@ -1,4 +1,4 @@
-# tensileTester
+# Tensile Tester 
 Collection of files related to 431 Systems Analysis + Design's tensile strength project
 
 The system will preform tensile material strength tests for the UAlbany Chemistry Dept.
@@ -20,16 +20,21 @@ etc...
 Load Slope code adapted from Professor Muckells example. 
 
 
-Upgraded Parts List
+# Upgraded Parts List
 ---------------------------------
-S-Type Load Cell - https://www.amazon.com/Pressure-Force-S-type-Sensor-Cable/dp/B01F6IOW6I/ref=asc_df_B01F6IOW3G/?tag=hyprod-20&linkCode=df0&hvadid=312135652506&hvpos=&hvnetw=g&hvrand=15921125906413700168&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1022672&hvtargid=pla-570264649184&th=1
+[S-Type Load Cell](https://www.amazon.com/Pressure-Force-S-type-Sensor-Cable/dp/B01F6IOW6I/ref=asc_df_B01F6IOW3G/?tag=hyprod-20&linkCode=df0&hvadid=312135652506&hvpos=&hvnetw=g&hvrand=15921125906413700168&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1022672&hvtargid=pla-570264649184&th=1) - $36.99
 
-Push Pull Force Fixture - https://www.amazon.com/Push-Pull-Fixture-Loading-Capacity-Stainless/dp/B087LXNJ2J/ref=sr_1_2?crid=2W85AJTGE3SES&keywords=tensile+clamp&qid=1646764733&sprefix=tensile+clamp%2Caps%2C182&sr=8-2
+[Push Pull Force Fixture](https://www.amazon.com/Push-Pull-Fixture-Loading-Capacity-Stainless/dp/B087LXNJ2J/ref=sr_1_2?crid=2W85AJTGE3SES&keywords=tensile+clamp&qid=1646764733&sprefix=tensile+clamp%2Caps%2C182&sr=8-2) - $19.95 x 2 
  
-DC motor speed controller - https://www.amazon.com/RioRand-Controller-Efficiency-Generating-Protection/dp/B007TH4EN6/ref=sr_1_11?crid=2JN037Q35Q6DW&keywords=riorand+dc+motor+speed+controller&qid=1651589457&sprefix=rio+rand+dc+%2Caps%2C189&sr=8-11
+[DC motor speed controller](https://www.amazon.com/RioRand-Controller-Efficiency-Generating-Protection/dp/B007TH4EN6/ref=sr_1_11?crid=2JN037Q35Q6DW&keywords=riorand+dc+motor+speed+controller&qid=1651589457&sprefix=rio+rand+dc+%2Caps%2C189&sr=8-11) - $9.99
 
-12v DC motor with wormdrive gearbox - https://www.amazon.com/dp/B01M8LL502?ref_=cm_sw_r_cp_ud_dp_KBN8Q3NMACPN06GBZWH4
+[12v DC motor with wormdrive gearbox](https://www.amazon.com/dp/B01M8LL502?ref_=cm_sw_r_cp_ud_dp_KBN8Q3NMACPN06GBZWH4) - $18.43
 
+# Software dependencies
+---------------------------------
+- [Arduino IDE](https://www.arduino.cc/en/software) with [ArduSpreadsheet](https://circuitjournal.com/arduino-serial-to-spreadsheet) plugin: Install both Arduino IDE and ArduSpreadsheet to begin data collection. Open the ArduSpreadsheet plugin **BEFORE** data collection begins.
+
+-[MatLab Data Analysis App](https://github.com/alexanderrotariu/tensileTester/blob/main/Source-Code/StressStrainMatlabApp/StressStrainInstaller.exe): Helpful for analyzing data retrieved after tensile testing. This app is a **one time** install. To operate, follow on screen instructions.
 
 
 
