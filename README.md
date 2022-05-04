@@ -33,8 +33,7 @@ Load Slope code adapted from Professor Muckells example.
 # Software dependencies
 ---------------------------------
 - [Arduino IDE](https://www.arduino.cc/en/software) with [ArduSpreadsheet](https://circuitjournal.com/arduino-serial-to-spreadsheet) plugin: Install both Arduino IDE and ArduSpreadsheet to begin data collection. Open the ArduSpreadsheet plugin **BEFORE** data collection begins.
-
--[MatLab Data Analysis App](https://github.com/alexanderrotariu/tensileTester/blob/main/Source-Code/StressStrainMatlabApp/StressStrainInstaller.exe): Helpful for analyzing data retrieved after tensile testing. This app is a **one time** install. To operate, follow on screen instructions.
+- [MatLab Data Analysis App](https://github.com/alexanderrotariu/tensileTester/blob/main/Source-Code/StressStrainMatlabApp/StressStrainInstaller.exe): Helpful for analyzing data retrieved after tensile testing. This app is a **one time** install. To operate, follow on screen instructions.
 
 
 
